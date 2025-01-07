@@ -1,0 +1,84 @@
+/* About.css */
+.about {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    color: #6a0dad;
+    font-weight: bold;
+  }
+  
+  .download-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #6a0dad;
+    color: #fff;
+    background-color: #6a0dad;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .download-btn:hover {
+    background-color: #fff;
+    color: #6a0dad;
+  }
+  .about-image {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px; /* Add spacing below the image */
+  }
+  
+  .profile-photo {
+    width: 200px; /* Increase size for a larger circle */
+    height: 200px; /* Maintain a perfect circle */
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Crop image to fit within the circle */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    border: 4px solid #6c63ff; /* Add a border with a stylish color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .profile-photo:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3); /* Intensify shadow on hover */
+  }
+  .cv-button {
+    background-color: #6a11cb; /* Sky blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
